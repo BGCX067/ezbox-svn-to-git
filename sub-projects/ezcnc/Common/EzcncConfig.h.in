@@ -1,0 +1,28 @@
+// ezcnc - Copyright (C) 2011 ezbox project.
+
+#ifndef _EZCNC_CONFIG_H_
+#define _EZCNC_CONFIG_H_
+
+#cmakedefine HAVE_64BIT_SIZE_T
+#cmakedefine HAVE_DLOPEN
+#cmakedefine HAVE_FLTK
+#cmakedefine HAVE_FL_TREE
+#cmakedefine HAVE_LIBJPEG
+#cmakedefine HAVE_LIBPNG
+#cmakedefine HAVE_LIBZ
+#cmakedefine HAVE_MATCH
+#cmakedefine HAVE_NATIVE_FILE_CHOOSER
+#cmakedefine HAVE_NO_SOCKLEN_T
+#cmakedefine HAVE_NO_VSNPRINTF
+#cmakedefine HAVE_OPENGL
+#cmakedefine HAVE_OSMESA
+#cmakedefine HAVE_PARSER
+#cmakedefine HAVE_PLUGINS
+#cmakedefine HAVE_READLINE
+#cmakedefine HAVE_PTHREAD
+
+#define EZCNC_CONFIG_OPTIONS "${EZCNC_CONFIG_OPTIONS}"
+
+${EZCNC_CONFIG_PRAGMAS}
+
+#endif
